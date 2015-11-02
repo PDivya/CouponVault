@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="CouponVault">
+		<class>com.couponvault.model.CouponDescription</class>
+		<class>com.couponvault.model.Coupon</class>
+		<class>com.couponvault.model.UserDetail</class>
+		<class>com.couponvault.model.UserRole</class>
+		<class>com.couponvault.model.User</class>
+	</persistence-unit>
+</persistence>
